@@ -83,7 +83,6 @@ services:
 networks:
   vibekanban-network:
     name: vibekanban-network
-    external: true
     
 volumes:
   remote-db-data:
